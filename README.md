@@ -1,16 +1,8 @@
 # Bitcoin-Price-Prediction-with-Sentiment-and-Google-Trends-Analysis
-Overview
-This project aims to predict Bitcoin prices on a daily basis by analyzing historical price data along with sentiment data from Reddit and public interest data from Google Trends. Through this approach, we explore if social sentiment and search trends have a quantifiable impact on Bitcoin's price movements over the last year.
+# Overview
+## This project aims to predict Bitcoin prices on a daily basis by analyzing historical price data along with sentiment data from Reddit and public interest data from Google Trends. Through this approach, we explore if social sentiment and search trends have a quantifiable impact on Bitcoin's price movements over the last year.
 
-Table of Contents
-Project Structure
-Data Sources
-Project Workflow
-Methodology
-Results and Insights
-Future Work
-Requirements
-Project Structure
+# Project Structure
 The main steps involved in the project are:
 
 Fetching Bitcoin historical price data.
@@ -19,11 +11,13 @@ Fetching Google Trends data for public interest in Bitcoin.
 Data preparation and feature engineering.
 Training a predictive model to forecast daily Bitcoin prices.
 Analyzing the correlations and impact of sentiment and search trends on Bitcoin price.
-Data Sources
+
+# Data Sources
 Bitcoin Historical Price Data: Retrieved from CoinGecko API for the past 365 days.
 Reddit Sentiment Data: Collected from the Cryptocurrency subreddit to gauge public sentiment around Bitcoin, focusing on posts from the past 365 days.
 Google Trends Data: Collected for Bitcoin-related search trends over the past 365 days to understand public interest over time.
-Project Workflow
+
+# Project Workflow
 Here's a step-by-step breakdown of the tasks performed in the project:
 
 1. Fetching Bitcoin Price Data
@@ -72,11 +66,13 @@ Bitcoin Price & Reddit Sentiment: Weak correlation, suggesting minimal relations
 Bitcoin Price & Google Trends: Weak positive correlation, indicating a slight association.
 Reddit Sentiment & Google Trends: Weak negative correlation, indicating minimal inverse relationship.
 Interpretation: These results indicate that Reddit sentiment and Google Trends data do not have strong direct relationships with Bitcoin's price movements in this dataset.
-Results and Insights
+
+# Results and Insights
 Bitcoin price prediction using Random Forest Regressor showed some ability to follow general trends, but with limited predictive power due to weak correlations with sentiment and search interest data.
 Correlation Analysis revealed weak relationships between Bitcoin price, Reddit sentiment, and Google Trends interest. This suggests that sentiment and search interest, while potentially useful in shorter time frames or under specific conditions, do not strongly influence Bitcoin's price on a daily basis in this dataset.
 Visualizations helped illustrate the independence of Bitcoin prices from social sentiment and Google search trends, showing that price fluctuations are more likely influenced by other market factors.
-Future Work
+
+# Future Work
 To enhance the predictive accuracy and insights, future work could include:
 
 Incorporating additional data sources: Such as trading volume, macroeconomic indicators, and sentiment from other social media platforms like Twitter.
